@@ -3,7 +3,7 @@ while vrb:
     positive, negative = 0, 0
     print("Введите, пожалуйста, 15 натуральных (положительных или отрицательных, но не ноль и дробных) чисел")
     for i in range(15):
-        num = int(input(str(i + 1) + '-е число: '))
+        num = int(input(str(i + 1) + ') '))
         if num > 0:
             positive +=num
         if num < 0:
@@ -12,12 +12,4 @@ while vrb:
             print("0 не является натуральным числом, увы, это конец")
             break
     print("\n Итоговая сумма положительных чисел: "+str(positive)+"\n Итоговая сумма отрицательных чисел: "+str(negative))
-    while True:
-        print("\n Хочешь попробовать снова?\n Введи 1 - если хочешь\n Введи 2 - если нет ")
-        onetwo = int(input())
-        if onetwo == 1:
-            break
-        if onetwo == 2:
-            print("Что ж, прощай!")
-            vrb = False
-            break
+    break
