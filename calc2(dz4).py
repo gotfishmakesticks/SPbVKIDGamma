@@ -37,6 +37,6 @@ else:
     elif oper == '*':
         print('Произведение равно: ' + str(mult(numbers)))
     elif oper == '/':
-        print('Деление равно: ' + str(div(numbers)))
+        print('Частное равно: ' + str(div(numbers)))
     else:
         print('Некорректный ввод')
