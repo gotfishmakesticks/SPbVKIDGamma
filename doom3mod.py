@@ -14,7 +14,7 @@ while weird_temp:
             zero = int(input())
             if zero == 1:
                 positive+=temp
-            if zero == 1:
+            if zero == 2:
                 negative+=temp
         if temp == 213:
             print("Okay, do you want to add this number or close the program?\nI'm ok with both variants tho\n"
