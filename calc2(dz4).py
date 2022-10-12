@@ -33,10 +33,10 @@ else:
     if oper == '+':
         print('Сумма равна: ' + str(summ(numbers)))
     elif oper == '-':
-        print('Вычитание равна: ' + str(sub(numbers)))
+        print('Вычитание равно: ' + str(sub(numbers)))
     elif oper == '*':
-        print('Произведение равна: ' + str(mult(numbers)))
+        print('Произведение равно: ' + str(mult(numbers)))
     elif oper == '/':
-        print('Деление равна: ' + str(div(numbers)))
+        print('Деление равно: ' + str(div(numbers)))
     else:
         print('Некорректный ввод')
